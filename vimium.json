@@ -17,7 +17,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "# Insert your preferred key mappings here.\nmap k scrollDown\nmap i scollUp\n\nmap I enterInsertMode\n\nmap J previousTab\nmap L nextTab\n\nmap h goBack\nmap ; goForward\n\nmap p visitPreviousTab",
+  "keyMappings": "# Insert your preferred key mappings here.\nmap k scrollDown\nmap i scollUp\n\nmap I enterInsertMode\n\nmap J previousTab\nmap L nextTab\n\nmap h goBack\nmap ; goForward\n\nmap p visitPreviousTab\n\nmap cr closeTabsOnRight\nmap cl closeTabsOnLeft\nmap co closeOtherTabs",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
