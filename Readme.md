@@ -1,5 +1,12 @@
 Change of standard Vimium keybindings
 
+
+## Installation
+- Copy the content in the file Vim_StandardCopy
+- Open vimium options
+- paste it in the Vimium `Custom key mappings` window. 
+
+
 ## movement commands
 map j scrollDown
 map k scrollUp
