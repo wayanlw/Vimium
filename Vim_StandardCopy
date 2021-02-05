@@ -24,6 +24,9 @@ map T createTab
 map ; Vomnibar.activate
 map : Vomnibar.activateInNewTab
 
+## open tab
+map s LinkHints.activateModeToOpenInNewTab
+
 ## Go to tabs
 map U firstTab
 map O lastTab
@@ -32,10 +35,9 @@ map o nextTab
 
 ##open multiple links
 map d LinkHints.activateModeWithQueue   # open multiple links
-map D LinkHints.activateModeToOpenInNewTab
 
 ## Visit last visited tab
-map p visitPreviousTab
+map z visitPreviousTab
 
 ## Closing tabs
 map cr closeTabsOnRight
