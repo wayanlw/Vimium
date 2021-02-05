@@ -39,6 +39,7 @@ map d LinkHints.activateModeWithQueue   # open multiple links
 ## Visit last visited tab
 map z visitPreviousTab
 
+
 ## Closing tabs
 map cr closeTabsOnRight
 map cl closeTabsOnLeft
