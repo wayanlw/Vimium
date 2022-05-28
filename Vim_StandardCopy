@@ -1,46 +1,44 @@
-
-## movement commands
+# ───────────────────────────── movement commands ───────────#
 map j scrollDown
 map k scrollUp
 map J scrollPageDown
 map K scrollPageUp
 
-## Back Forward
+# ─────────────────────────────── Back Forward ──────────────#
 map h goBack
 map l goForward
 
-## Deactivates othe keys
+# ─────────────────────────── Deactivates othe keys ─────────#
 map i enterInsertMode
 
-## Close Reactivate tab
+# ─────────────────────────── Close Reactivate tab ──────────#
 map w removeTab 
 map W restoreTab
 
-## Quick Tab Selection
+# ──────────────────────────── Quick Tab Selection ──────────#
 map t Vomnibar.activateTabSelection
 map T createTab
 
-## Go to address
+# ─────────────────────────────── Go to address ─────────────#
 map ; Vomnibar.activate
 map : Vomnibar.activateInNewTab
 
-## open tab
+# ───────────────────────────────── open tab ────────────────#
 map s LinkHints.activateModeToOpenInNewTab
 
-## Go to tabs
+# ──────────────────────────────── Go to tabs ───────────────#
 map U firstTab
 map O lastTab
 map u previousTab
 map o nextTab
 
-##open multiple links
-map d LinkHints.activateModeWithQueue   # open multiple links
+# ──────────────────────────── open multiple links ──────────#
+map d LinkHints.activateModeWithQueue
 
-## Visit last visited tab
+# ────────────────────────── Visit last visited tab ─────────#
 map z visitPreviousTab
 
-
-## Closing tabs
+# ─────────────────────────────── Closing tabs ──────────────#
 map cr closeTabsOnRight
 map cl closeTabsOnLeft
 map co closeOtherTabs
